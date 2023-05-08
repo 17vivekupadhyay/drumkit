@@ -1,0 +1,41 @@
+body{
+    background-color: #ff6f3c;
+    color: #eeeeee;
+    font-family: "Poppins", "sans-shrif";
+    flex-wrap: wrap;
+    min-height: 100vh;
+
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#boxes{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn{
+    margin: 10px;
+    padding: 16px;
+    border-width: 4px;
+    background-color: #524c47;
+    flex-direction: column;
+    border-color: #f99a5b;
+    cursor: pointer;
+    font-size: 14px;
+    color: #eeeeee;
+}
+
+.btn:focus{
+    outline:0;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
